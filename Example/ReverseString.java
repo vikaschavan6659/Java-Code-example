@@ -7,6 +7,7 @@ public class ReverseString {
          char ch;
         for (int i=0 ; i<name.length() ;i++){
             ch=name.charAt(i);
+            System.out.println(ch);
             newString=ch+newString;
             // for checking the char is inserting or not
 //            System.out.println(newString);
