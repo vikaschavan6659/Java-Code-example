@@ -17,7 +17,7 @@ public class StaticNonStatic {
     static {
 
         System.out.println("vikas");
-        get();
+//        get();
     }
     public static void get (){
         System.out.println("in side the methode ");
